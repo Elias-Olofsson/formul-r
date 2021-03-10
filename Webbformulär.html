@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+  <head>
+	<meta charset="utf-8">
+	<title>Webbformulär</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>
+      Kundinformation
+    </h1>
+    <p>
+      Förnamn:
+    </p>
+    <input type='text' value=''>
+    <p>
+      Efternamn:
+    </p>
+    <input type='text' value=''>
+    <p>
+      man
+    </p>
+    <input type="radio" name="radio">
+    <p>
+      kvinna
+    </p>
+    <input type="radio" name="radio">
+    <p>
+      annat
+    </p>
+    <input type="radio" name="radio">
+    <p>
+      personnummer med hela årtalet
+    </p>
+    <input type="text"
+    pattern="[0-9]{12}" placeholder="ååååmmddxxxx">
+    <p>
+      har hus
+    </p>
+    <input type='checkbox'><br>
+    <p>
+      har husförsäkring
+    </p>
+    <input type='checkbox'><br>
+    <p>
+      har hus utomlands
+    </p>
+    <input type='checkbox'><br>
+    <p>
+      Om du har hus utomlands, isåfall i vilka länder?
+    </p>
+    <textarea rows="2" cols="40"></textarea>
+    <p>
+      Kolla gärna igenom dina svar innan du skickar in.
+    </p>
+    <form onsubmit="" action="Webbsvar.html">
+    <input type='submit' value="skicka">
+    </form>
+  </body>
+</html>
